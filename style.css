@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #d80505, #1d0303);
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pass-gen {
+    background: linear-gradient(to right, #d80505, #1d0303);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border:#1d0303 solid 5px;
+}
+.title {
+    background: linear-gradient(to right, #d80505, #1d0303);
+    color: #d1d1d1;
+    margin-bottom: 20px;
+    border:#1d0303 solid 5px;
+    border-radius: 10%;
+    text-align: center;
+}
+button {
+    background-color: #d80505;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #06aac7;
+}
+input {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #a30909;
+    border-radius: 4px;
+}

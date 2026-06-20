@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contraseña-generate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="container">
+        <h1 class="title">Generador de Contraseñas</h1>
+        <div class="pass-gen">
+            <input id="password" readonly>
+            <button onclick="generarPass()">Generar Contraseña</button>
+            <button onclick="copiarPass()">Copiar Contraseña</button> 
+            <iput type="range" id="length" min="8" max="32" value="16">
+        </div>
+       </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
